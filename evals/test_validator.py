@@ -19,8 +19,15 @@ def run(root: Path, scratch: Path | None) -> list[dict]:
         raise AssertionError(f'Baseline package fails: {errors}')
     if scratch:
         scratch.mkdir(parents=True, exist_ok=True)
+    public_trial = Path(tempfile.mkdtemp(prefix='art-validator-url-', dir=scratch)) / root.name
+    shutil.copytree(root, public_trial, ignore=shutil.ignore_patterns('desktop.ini', '__pycache__', '.git'))
+    public_readme = public_trial / 'README.md'
+    public_readme.write_text(public_readme.read_text(encoding='utf-8') + '\n[Public guide](https://example.org/home/resources/guide/)\n', encoding='utf-8')
+    public_errors, _ = check(public_trial)
+    if public_errors:
+        raise AssertionError(f'Public HTTPS path was rejected: {public_errors}')
     results = []
-    for kind in ('broken_link', 'private_path', 'invalid_pin', 'fixture_mismatch', 'private_binary', 'populated_worksheet'):
+    for kind in ('broken_link', 'private_path', 'private_unix_path', 'invalid_pin', 'fixture_mismatch', 'private_binary', 'populated_worksheet'):
         # Retain isolated fixtures for inspection; no recursive cleanup/deletion.
         trial = Path(tempfile.mkdtemp(prefix='art-validator-', dir=scratch)) / root.name
         shutil.copytree(root, trial, ignore=shutil.ignore_patterns('desktop.ini', '__pycache__', '.git'))
@@ -31,6 +38,10 @@ def run(root: Path, scratch: Path | None) -> list[dict]:
         elif kind == 'private_path':
             file = trial / 'README.md'
             file.write_text(file.read_text(encoding='utf-8') + '\nZ:' + chr(92) + 'fictional-private' + chr(92) + 'source.txt\n', encoding='utf-8')
+            expected = 'Absolute private source path'
+        elif kind == 'private_unix_path':
+            file = trial / 'README.md'
+            file.write_text(file.read_text(encoding='utf-8') + '\n/home/fictional-person/private-notes.txt\n', encoding='utf-8')
             expected = 'Absolute private source path'
         elif kind == 'invalid_pin':
             file = trial / 'UPSTREAM.json'

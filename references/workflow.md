@@ -20,6 +20,8 @@ Turn a broad topic into an answerable uncertainty. Identify the relevant populat
 
 Distinguish the **question** from the **method**: a named assay, interview, model, or MindMap is a means of answering a question. A proposed operationalization is A until supported or chosen; do not silently replace the user's construct with an easier proxy.
 
+For AI-assisted formulation, use [question frameworks](question-frameworks.md) and the prompt checks in [AI judgment](ai-judgment.md) when relevant. Preserve valid causal or directional questions rather than treating individual words as bias.
+
 **Done:** an answer could differ from the favored conclusion, and the target construct can be distinguished from its measurement. Missing design choices are labeled rather than fabricated.
 
 ## Evidence

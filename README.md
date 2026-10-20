@@ -1,6 +1,6 @@
 # Critical Thinking for Academic Research
 
-[繁體中文](README.zh-TW.md) · Version 0.2.1
+[繁體中文](README.zh-TW.md) · Version 0.3.0
 
 Evidence-aware reasoning, student coaching, and teaching design.
 
@@ -10,9 +10,27 @@ A portable research-reasoning skill built from Vincent's **Critical Thinking for
 
 The outcome is an answerable question, an explicit evidence boundary, and a next check that can change the judgment. Agreement, novelty, and rewriting are not success requirements.
 
+## New in 0.3.0: keep your judgment in the loop
+
+An AI answer can sound convincing before you have checked its premise or sources. This update turns selected ideas from **Thinking Critically with AI** into an operational workflow, with attribution and limitations in [the source map](references/source-map.md). This is teaching guidance, not a claim of measured learning gains or journal endorsement.
+
+- Inspect prompts without treating every directional or causal question as biased.
+- Choose PICO, SPIDER, PEO, ECLIPSE or CoCoPop only when it fits the question.
+- Verify a consequential claim against the actual source; seek contrary evidence and check shared datasets rather than voting by paper count.
+- In learning contexts, preserve a first attempt and later explain with the AI output set aside. Keep the person's actual acceptance/rejection reason.
+- Run a tool-neutral 50-minute lab, with offline fictional packets or authorized real sources. No Consensus account is required.
+
+```text
+Use critical-thinking-for-academic-research to inspect my research prompt.
+Preserve its inferential target, flag unsupported assumptions, and distinguish
+AI suggestions from source-checked evidence. Do not assume a search was run.
+```
+
+Start with [the AI judgment guide](references/ai-judgment.md), [question frameworks](references/question-frameworks.md), [worked example](examples/ai-judgment.en.md), [50-minute lab](teaching/ai-judgment-lab.en.md), or [AI research worksheet](templates/ai-research-check.en.md).
+
 ## Start here
 
-Point an Agent Skills-compatible assistant at [SKILL.md](SKILL.md), or copy this entire directory into the skill location supported by your agent. Keep the references and templates beside it. Do not copy only SKILL.md.
+Point an Agent Skills-compatible assistant at [SKILL.md](SKILL.md), or copy this entire directory into the skill location supported by your agent. Keep the references and templates beside it. Do not copy only SKILL.md. To download from GitHub, use **Code → Download ZIP**, extract it, and name the complete skill folder `critical-thinking-for-academic-research` (remove a downloaded branch suffix such as `-main`). The exact skill location depends on your host; an ordinary chat can read the instructions without a persistent installation.
 
 Examples of requests:
 

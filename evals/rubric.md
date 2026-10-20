@@ -15,6 +15,10 @@ This adapts the four criteria on C5 p. 18. Each can receive 0–2 when useful; r
 
 No 0–8 total is a scientific-validity, ability, novelty or publication-readiness measure. In early coach turns, assess the question asked and learner agency, not completed worksheet dimensions that do not yet exist.
 
+## AI-assisted research feedback
+
+When relevant, inspect the original versus retained/reframed prompt, a material source locator, what the source does not establish, contrary evidence or a search limit, and the person's actual AI-use decision/reason. An explanation with the output set aside is checked against source content; fluency, confidence and agreement are not validity or ability scores. Do not penalize a learner for withholding judgment or retaining a valid causal question. A retrieved paper-count majority is not an evidence-certainty score.
+
 ## Behavioral test review
 
 For **design-lesson**, additionally inspect whether the response gives observable objectives, an exact time budget, executable rules/materials/roles, each learner's initial reasoning and final artifact, evidence/peer challenge, revision and an exit check. Planned teacher prompts may be provided together; do not apply the live coach turn limit to a lesson plan. Game wins, cooperative choices and agreement are not assessment outcomes. New activities must be distinguished from source-course content.

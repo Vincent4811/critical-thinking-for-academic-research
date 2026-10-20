@@ -9,3 +9,7 @@
 Historical facts and access limitations are documented in the [source map](../references/source-map.md). Proposed studies, causal mechanisms used as alternatives, and future observations are labeled as proposals/hypotheses. No example authorizes conducting a study or treating a patient.
 
 史實與核對範圍見 [來源對照](../references/source-map.md)。未來研究、替代機制與判別方式均依提案或假說標示；範例不是執行研究或醫療介入的授權。
+
+## AI-assisted research judgment
+
+[English](ai-judgment.en.md) / [繁體中文](ai-judgment.zh-TW.md): original fictional demonstration of prompt inspection, framework fit, source checking and report/dataset distinctions. No real search, health effect or learner answer is claimed.

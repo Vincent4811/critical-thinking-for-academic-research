@@ -24,6 +24,7 @@ def main() -> None:
     root = Path(__file__).resolve().parents[1]
     timelines = {}
     matrices = {}
+    ai_timelines = {}
     for lang in ('en', 'zh-TW'):
         groups = schedules((root / 'teaching' / f'lesson-120.{lang}.md').read_text(encoding='utf-8'))
         assert len(groups) == 2, (lang, groups)
@@ -35,6 +36,15 @@ def main() -> None:
             assert previous == budget
             assert sum(end - start for start, end in group) == budget
         timelines[lang] = groups
+        ai_groups = schedules((root / 'teaching' / f'ai-judgment-lab.{lang}.md').read_text(encoding='utf-8'))
+        assert len(ai_groups) == 1
+        previous = 0
+        for start, end in ai_groups[0]:
+            assert start == previous and end > start
+            previous = end
+        assert previous == 50 and sum(end-start for start, end in ai_groups[0]) == 50
+        ai_timelines[lang] = ai_groups
+
         card = (root / 'teaching' / f'activity-cards.{lang}.md').read_text(encoding='utf-8')
         rows = re.findall(r'^\|\s*([CD])\s*\|\s*\((\d+),\s*(\d+)\)\s*\|\s*\((\d+),\s*(\d+)\)\s*\|', card, re.M)
         assert len(rows) == 2
@@ -50,6 +60,10 @@ def main() -> None:
         assert sum(matrix['C', 'C']) > sum(matrix['D', 'D'])
         matrices[lang] = matrix
     assert timelines['en'] == timelines['zh-TW']
+    assert ai_timelines['en'] == ai_timelines['zh-TW']
+    assert 2 + 5 + 4 + 4 == 15
+    assert 120 - (59 - 44) + 15 == 120
+    assert 2 + 2 * 3 == 2 + 3 * 2 == 8  # pair/triad explanation block
     assert matrices['en'] == matrices['zh-TW']
     assert 120 - 12 + 15 - 9 + 6 == 120  # documented replacement, not an extra block
     assert 120 + 15 == 135  # all four games, retaining the original blocks
@@ -58,7 +72,7 @@ def main() -> None:
         winning.append(any(not winning[n-take] for take in (1, 2) if take <= n))
     assert [n for n in range(1, 14) if not winning[n]] == [3, 6, 9, 12]
     assert winning[13]
-    print(json.dumps({'bilingual_time_budgets': [120, 50], 'continuous_no_overlap': True,
+    print(json.dumps({'bilingual_time_budgets': [120, 50], 'continuous_no_overlap': True, 'ai_lab_minutes': 50, 'ai_replacement_minutes': 15,
                       'optional_replacement_minutes': 120, 'all_four_games_minutes': 135,
                       'payoff_matrix_logic': 'pass', 'last_token_best_play': 'pass'}, indent=2))
 

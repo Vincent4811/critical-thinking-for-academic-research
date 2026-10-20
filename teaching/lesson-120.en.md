@@ -65,3 +65,5 @@ Card 4 supplies a newly designed 15-minute protocol. To keep **120 minutes**, re
 | 46–50 | Exit ticket | Next evidence |
 
 Avoid running all games in this shorter lesson. Keep the chain from first judgment to evidence, challenge and revision rather than reducing each activity to a demonstration without learner reasoning.
+
+For AI-assisted research teaching, [the AI judgment lab](ai-judgment-lab.en.md) offers a standalone 50-minute session or a defined 15-minute replacement for the 44–59 claim–evidence block. Use a replacement, not an extra activity; the existing total remains 120 minutes.

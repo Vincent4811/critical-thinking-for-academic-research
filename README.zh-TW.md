@@ -1,6 +1,6 @@
 # Critical Thinking for Academic Research
 
-[English](README.md) · 版本 0.2.1
+[English](README.md) · 版本 0.3.0
 
 Evidence-aware reasoning, student coaching, and teaching design.
 
@@ -10,9 +10,27 @@ Evidence-aware reasoning, student coaching, and teaching design.
 
 目標是形成可回答的研究問題、清楚的證據界線，以及可能改變判斷的下一步。判斷有根據時可以保留原題，不必為了「修訂」而改寫。
 
+## 0.3.0 新增：保留你的研究判斷
+
+AI 的答案可能在前提與來源尚未核對前，就顯得很有說服力。本版將 **Thinking Critically with AI** 的部分概念轉為可操作流程，歸屬與限制見 [來源紀錄](references/source-map.md)。這是教學指引，並非學習成效或期刊背書的宣稱。
+
+- 檢查提示是否預設答案，但不把所有方向性或因果問題都判為偏誤。
+- 依問題選用 PICO、SPIDER、PEO、ECLIPSE 或 CoCoPop，不硬套單一框架。
+- 對關鍵主張回查實際來源，尋找相反證據與共用資料集，不以論文篇數投票。
+- 學習時保留初次嘗試，之後放下 AI 輸出自行解釋，記錄本人實際接受／拒絕的理由。
+- 提供不綁工具的 50 分鐘實作課，可用離線虛構材料或已授權真實來源，不需 Consensus 帳號。
+
+```text
+用 critical-thinking-for-academic-research 檢查我的研究提示。
+保留原本的推論目標，指出未經支持的假設，區分 AI 建議與已核對的來源證據。
+沒有實際搜尋時，不要假裝已經檢索。
+```
+
+可從 [AI 判斷指引](references/ai-judgment.md)、[問題框架](references/question-frameworks.md)、[虛構示範](examples/ai-judgment.zh-TW.md)、[50 分鐘實作課](teaching/ai-judgment-lab.zh-TW.md) 或 [AI 研究學習單](templates/ai-research-check.zh-TW.md) 開始。
+
 ## 開始使用
 
-讓支援 Agent Skills 的助理讀取 [SKILL.md](SKILL.md)，或將整個資料夾放入該工具支援的技能位置。保留 references 與 templates 的相對位置，不要只複製入口檔。
+讓支援 Agent Skills 的助理讀取 [SKILL.md](SKILL.md)，或將整個資料夾放入該工具支援的技能位置。保留 references 與 templates 的相對位置，不要只複製入口檔。GitHub 可用 **Code → Download ZIP** 下載並解壓縮，將完整技能資料夾命名為 `critical-thinking-for-academic-research`（移除下載時可能附加的 `-main` 分支字尾）。實際安裝位置依使用工具而異；一般聊天讀取指引不等於永久安裝。
 
 ```text
 用 critical-thinking-for-academic-research 分析這個研究問題與我提供的論文。

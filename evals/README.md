@@ -16,7 +16,7 @@ To check that the validator rejects real packaging defects:
 python evals/test_validator.py
 ```
 
-The six negative tests mutate only newly created temporary copies. They deliberately retain those copies for inspection. An optional `--scratch` directory must be outside this package.
+The seven negative tests mutate only newly created temporary copies. A separate acceptance check ensures a public HTTPS resource URL is not misclassified as a private filesystem path. They deliberately retain those copies for inspection. An optional `--scratch` directory must be outside this package.
 
 Version 0.2.0 also checks the bilingual lesson schedules, optional-game timing and symbolic game logic:
 
@@ -25,6 +25,8 @@ python evals/test_lesson_design.py
 ```
 
 These are arithmetic/consistency checks on the designed activities, not a test of real behavior or learning efficacy. B13–B16 add teacher-facing design scenarios, distinct from live learner coaching.
+
+Version 0.3.0 extends the same lesson check to the bilingual 50-minute AI lab, pair/triad explanation budgets and the 15-minute replacement. B17–B24 add AI-assisted inquiry scenarios: prompt presupposition, valid causal targets, dataset dependence and vote counts, qualitative scope, learner turns, offline teaching, review-method boundaries and abstract-only checking. Historical B01–B16 responses remain labeled by their original version; adding cases does not mean they have been executed.
 
 ## Diagram check
 

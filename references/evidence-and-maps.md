@@ -33,6 +33,10 @@ Source ID and page/section/table/figure/paragraph make the entry recoverable. Re
 - Keep effect size, precision, selection, multiplicity, and applicability separate from statistical significance. Unsupported probabilities or likelihood ratios stay unestimated.
 - A retraction changes evidential use, not the truth value of every possible related hypothesis. Search independent evidence when a substantive conclusion still matters.
 
+## AI discovery and conflicting evidence
+
+AI summaries and retrieval displays are leads until a material source claim is checked. Mark the substantive claim U while recording the display separately as an attributed report; do not upgrade it to a verified empirical finding. If the research object is an AI system, documented outputs may themselves be observations about it. Compare design/context, shared datasets and selection before combining findings. A support percentage is neither a pooled effect nor an evidence-certainty score. See [AI judgment](ai-judgment.md) for proportionate source checks and method boundaries.
+
 ## Formal five-branch map
 
 Central node: one complete provisional research question, or the original broad question explicitly marked as not yet focused.

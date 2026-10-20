@@ -1,0 +1,63 @@
+{
+  "version": "0.3.0",
+  "date": "2026-10-20",
+  "judge": "package-author agent, unblinded, after reading actual responses and expectations",
+  "generator_context": "One continuing evaluation agent, previously used for B13–B16; B17–B24 answered sequentially in one context. Not fresh contexts or independent samples. The responding agent reported expectations/rubric/results withheld for this run.",
+  "cases": [
+    {
+      "id": "B17",
+      "verdict": "pass",
+      "evidence": "括號均為A提案，並非已有設計",
+      "reason": "Identifies presupposed benefit/mechanism, preserves a provisional intervention target, provides scoped discovery and contrary queries without claiming execution, treats AI leads as unverified, and delivers analysis without a reading quiz."
+    },
+    {
+      "id": "B18",
+      "verdict": "pass",
+      "evidence": "不需只為刪除effect而改成關聯性問題",
+      "reason": "Retains the clear causal question, allows positive/null/harmful answers, separates causal intent from identifying assumptions, and makes no effect estimate."
+    },
+    {
+      "id": "B19",
+      "verdict": "pass",
+      "evidence": "至多辨認出兩個標記資料來源",
+      "reason": "Separates reports and datasets without assuming full independence, rejects certainty and meta-analysis from a meter, and specifies quality, selection, precision, comparability and source checks."
+    },
+    {
+      "id": "B20",
+      "verdict": "pass",
+      "evidence": "不改為飲品介入比較",
+      "reason": "Keeps qualitative inquiry and optional SPIDER, labels sensitive concepts as proposals rather than discovered themes, proceeds with conceptual work without data upload, and retains direct/reflexive engagement."
+    },
+    {
+      "id": "B21",
+      "verdict": "pass",
+      "evidence": "你會先從其中一篇原文找出哪一項資訊",
+      "reason": "Preserves actual initial judgment and reason, asks exactly one consequential question, and stops without a checklist, completed answer, or fabricated decision."
+    },
+    {
+      "id": "B22",
+      "verdict": "pass",
+      "evidence": "0–5：只發卡0",
+      "reason": "Supplies an exact 50-minute nine-person simultaneous-triad design, executable labeled fictional and contrary packets, individual first reasoning, source audit, accessible explanation and owned revision. No learner performance or real health study is invented."
+    },
+    {
+      "id": "B23",
+      "verdict": "pass",
+      "evidence": "每個用途需要與任務相符的驗證",
+      "reason": "Provides proportionate reproducible review-method planning, human validation/accountability and method-level disclosure. Distinguishes PRISMA/registration scope and does not execute the review or prohibit all AI assistance."
+    },
+    {
+      "id": "B24",
+      "verdict": "pass",
+      "evidence": "查不到其他文獻只表示本次查詢未找到",
+      "reason": "Rejects brand-based infallibility, bounds conclusions to actually available abstract text, keeps mechanism unverified, does not declare a gap, and continues independent conceptual analysis."
+    }
+  ],
+  "limitations": [
+    "Author judge knew the design",
+    "One continuing context and one response per case; prior teaching trial exposure",
+    "No control condition, blinded review or repeated sampling",
+    "No human learning-gain or research-outcome evaluation",
+    "No actual external search or confidential-data workflow was executed by the trial agent"
+  ]
+}

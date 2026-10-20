@@ -18,7 +18,7 @@ REQUIRED = (
     'docs/method.en.md', 'docs/method.zh-TW.md',
     'references/workflow.md', 'references/evidence-and-maps.md',
     'references/thinking-tools.md', 'references/course-activities.md',
-    'references/source-map.md', 'references/lesson-design.md', 'evals/prompts.json', 'evals/expectations.json',
+    'references/source-map.md', 'references/lesson-design.md', 'references/ai-judgment.md', 'references/question-frameworks.md', 'evals/prompts.json', 'evals/expectations.json',
     'evals/rubric.md', 'evals/README.md', 'evals/validation-report.md', 'evals/test_validator.py', 'evals/test_lesson_design.py',
     'templates/evidence-ledger.csv', 'templates/revision-log.csv',
 )
@@ -26,9 +26,10 @@ PAIRS = (
     'templates/analysis', 'templates/mindmap', 'templates/coach-session',
     'examples/serving-bowl', 'examples/light-response', 'examples/nutrition',
     'teaching/lesson-120', 'teaching/activity-cards',
-    'templates/lesson-plan', 'templates/classroom-worksheet',
+    'templates/lesson-plan', 'templates/classroom-worksheet', 'templates/ai-research-check',
+    'teaching/ai-judgment-lab', 'examples/ai-judgment',
 )
-PRIVATE_PATH = re.compile(r'(?i)(?:\b[a-z]:[\\/]|/(?:Users|home)/[a-z0-9_.-]+/|file://(?:localhost|[a-z]))')
+PRIVATE_PATH = re.compile(r'(?i)(?:\b[a-z]:[\\/]|(?<![a-z0-9.:/])/(?:Users|home)/[a-z0-9_.-]+/|file://(?:localhost|[a-z]))')
 SECRET_VALUE = re.compile(r'\b(?:sk-proj-|ghp_|github_pat_)[A-Za-z0-9_\-]{15,}')
 MARKDOWN_LINK = re.compile(r'!?\[[^\]\n]*\]\(([^\n)]+)\)')
 MERMAID_BLOCK = re.compile(r'^```mermaid\s*\n(.*?)^```', re.M | re.S)

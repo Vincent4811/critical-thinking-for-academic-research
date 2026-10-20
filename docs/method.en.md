@@ -71,3 +71,9 @@ Use only the parts warranted by the material. This is a decision record, not a r
 The [serving-bowl example](../examples/serving-bowl.en.md) shows why source status and numerical labels matter. The [light-response example](../examples/light-response.en.md) distinguishes sufficiency from a complete mechanism. The [fictional nutrition example](../examples/nutrition.en.md) includes a complete analysis and a learner-first dialogue.
 
 The [source map](../references/source-map.md) identifies course pages and research checks. The [rubric](../evals/rubric.md) supports teaching feedback and skill review; it is not a validated psychometric instrument or evidence of improved research outcomes.
+
+## AI-assisted research: what remains your judgment?
+
+Version 0.3.0 adds selected concepts from the attributed **Thinking Critically with AI** teaching pack: inspecting prompts, choosing a question framework, checking original sources, seeking contrary evidence, explaining without the AI display, and recording actual decisions. Tool claims are qualified rather than treated as guarantees; the pack is not evidence of this skill's effectiveness.
+
+Use [AI judgment](../references/ai-judgment.md), [question frameworks](../references/question-frameworks.md), the [fictional example](../examples/ai-judgment.en.md), [50-minute lab](../teaching/ai-judgment-lab.en.md), and [AI research worksheet](../templates/ai-research-check.en.md) when those are the task. No new mode or online account is required. Researcher analysis remains immediately useful; a learner's first attempt and later explanation remain their own.

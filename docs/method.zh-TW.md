@@ -69,3 +69,9 @@ flowchart LR
 [Serving-bowl 範例](../examples/serving-bowl.zh-TW.md) 示範來源狀態與數值標籤；[光反應範例](../examples/light-response.zh-TW.md) 區分充分性與完整機制；[虛構營養研究](../examples/nutrition.zh-TW.md) 包含完整分析與學生先思考對話。
 
 [來源對照](../references/source-map.md) 保留教材頁碼與研究核對範圍。[rubric](../evals/rubric.md) 用於教學回饋及 Skill 評閱，尚非經驗證的心理計量工具，也不能用來宣稱研究能力已提升。
+
+## AI 輔助研究：哪些判斷仍由你負責？
+
+0.3.0 版納入已署名的 **Thinking Critically with AI** 教材概念：檢查提問、依問題選框架、回查原文、尋找相反證據、放下 AI 後解釋，以及記錄實際決定。工具宣稱保留適用界線；該教材並不是本技能成效的實證證據。
+
+相關任務可用 [AI 判斷指引](../references/ai-judgment.md)、[問題框架](../references/question-frameworks.md)、[虛構示範](../examples/ai-judgment.zh-TW.md)、[50 分鐘實作課](../teaching/ai-judgment-lab.zh-TW.md) 與 [AI 研究學習單](../templates/ai-research-check.zh-TW.md)。不另增模式或線上帳號要求；研究分析仍直接完成可支持的工作，學生的初次嘗試與後續解釋仍由本人提供。

@@ -1,4 +1,17 @@
-# Validation record — 0.2.1
+# Validation record — 0.3.0
+
+## Version 0.3.0: AI-assisted research judgment
+
+Selected concepts from the supplied 40-page *Thinking Critically with AI* teaching pack are adapted into source/AI appraisal, optional question frameworks, a bilingual judgment worksheet, a fictional worked example, and a 50-minute lesson with an explicit 15-minute replacement option. Attribution, access level, source genre and qualification decisions are in [the source map](../references/source-map.md). No source PDF, extracted full text, private Drive link or third-party image is redistributed.
+
+- System skill-creator metadata validation passed; the skill entry remains below its 250-line release limit.
+- Updated package checks, Python syntax parsing and seven defect-injection cases passed. A new public-URL acceptance regression passed after fixing a false positive: Public HTTPS resource paths with a home segment were previously confused with a private home directory. Private Windows and Unix path fixtures remain rejected.
+- The bilingual AI lab schedules are continuous and total 50 minutes. Pair/triad explanation allocations fit the eight-minute block; the 15-minute replacement preserves the original 120-minute total. Existing 120/50-minute schedules and game logic also passed.
+- All 14 Mermaid blocks are unchanged from the prior package; earlier rendering results are retained, not reported as a new render or pedagogical validation.
+- One continuing evaluation agent produced actual answers for B17–B24; it did not receive the expected answers/rubric or observed responses for this run. The package author inspected all eight responses against the stated requirements: **8 pass; no critical failure observed**. The agent had earlier teaching-trial exposure, and all cases shared one continuing context; these are not independent samples or a blinded trial.
+- [Actual new responses](observed-ai-judgment-responses.json) and [case judgments](ai-judgment-case-review.json) preserve the evidence. Historical B01–B16 records below remain attributed to their original versions, not newly rerun samples.
+
+This establishes usable packaging and observed behavior on these scenarios, not an effect on understanding, retention, judgment quality or real research outcomes. The no-AI explanation is a formative source-checking exercise, not a validated test or a fluency score. The original guide is a provider-produced educational resource, not a peer-reviewed validation of the package.
 
 ## Version 0.2.1: naming update
 

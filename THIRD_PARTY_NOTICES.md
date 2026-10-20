@@ -36,3 +36,7 @@ SOFTWARE.
 ## Course and scientific material
 
 The original course contribution is credited to Vincent. Private source slides are not included. Scientific references, journal figures, source PDFs, and other third-party materials retain their own rights and are not relicensed by this package. The examples use attributed facts and original explanatory prose, not copied figures or full-text articles. Fictional material is labeled as such.
+
+## Thinking Critically with AI teaching resource
+
+Version 0.3.0 paraphrases selected ideas from the Consensus faculty teaching pack *Thinking Critically with AI*. Guides 02–05 credit Dr. Benita Olivier; the library case features Megan Heuer. The pack, source images and extracted full text retain their original rights and are not distributed or relicensed under this package's MIT license. The public package contains original operational guidance, fictional examples and teaching materials, with page-level attribution and qualification decisions in [the source map](references/source-map.md). No affiliation or endorsement by Consensus, the named authors, their institutions, Nature or other journals is implied.

@@ -45,3 +45,24 @@ The router, Socratic, First Principles, Map–Territory, Scientific Method, Stee
 In particular, Scientific Method's software-localization scope is replaced with explicitly labeled **research discriminator planning**; this is an adaptation, not a claim that upstream supplies a complete academic research methodology. Probabilistic Thinking does not require numerical beliefs without defensible inputs. Upstream selection scores or performance anecdotes are not imported as validated academic measures.
 
 The upstream MIT notice is retained in [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md). Course and paper rights are not transferred by that license.
+
+
+## Version 0.3.0: Thinking Critically with AI
+
+Source: *Thinking Critically with AI*, **Classroom Resources for Faculty**, Consensus resource pack, 40 PDF pages, supplied by the owner. The pack credits guides 02–05 to **Dr. Benita Olivier** (as identified in the document), and features **Megan Heuer** in the library teaching case. No publication date is printed in the extracted pack text; do not infer one from the file's upload/modified timestamp. It is a provider-produced teaching resource with product examples, not a peer-reviewed article, a journal endorsement, or an evaluation of this skill.
+
+Access on 2026-10-20: the authorized Drive connector returned the complete extracted text, including cover/contents, numbered pages 2–39 and closing page. This was a text/content check, not a new visual layout or embedded-screenshot audit. The original PDF, extracted full text, private Drive link and third-party images are not redistributed. Public companion pages checked for attribution/context: [Thinking Critically with AI in Research](https://consensus.app/home/resources/using-ai-in-research/) and [From Framework to Prompt](https://consensus.app/home/resources/prompting-for-consensus/). The supplied PDF is the source for page-specific mappings below; web versions can differ.
+
+| Pack pages | Concept used | Original skill adaptation |
+| --- | --- | --- |
+| 2–6 | Library case: field exploration, concept maps, opposing studies, reading and source-linked assessment | Optional broad-to-narrow discovery; passage-linked evidence and learner decisions; no unverified campus uptake or learning-effect claim |
+| 7–15 | Researcher judgment, source verification, explanation without the AI output, reflective log, method/data conditions | [AI judgment](ai-judgment.md), [bilingual worksheet](../templates/ai-research-check.en.md), human-owned decisions with no mandatory analyze-mode quiz |
+| 16–21 | Prompt assumptions, scope, ambiguity and framing | Contrastive discovery prompts while retaining legitimate causal/directional and yes/no questions; no promise that wording alone removes bias |
+| 22–31 | PICO, SPIDER, PEO, ECLIPSE, CoCoPop | [Optional question frameworks](question-frameworks.md), matched to inference and without invented components; time and denominator added for incidence |
+| 32–39 | Public claims, cherry-picking, wider literature, uncertainty and sharing | Inspect selection, shared datasets, design, precision and applicability; do not equate a retrieval meter or paper majority with a pooled estimate or certainty |
+
+Qualification decisions: the package does not adopt categorical promises that a brand cannot fabricate, that general-purpose assistants cannot retrieve, that neutral wording yields a complete literature, or that every question needs a fixed evidence hierarchy. Search-capable tools still require source checking. A high-quality review can help without automatically deciding every question; no retrieved study is not proof of no evidence. Systematic review reporting/registration and permitted AI assistance depend on the actual method and current context. The 50-minute and 15-minute activities, fictional packets, examples and worksheets are new package designs, not copied source assignments or measured interventions.
+
+The pack cites Hosseini et al., *Formulating research questions for evidence-based studies*, Journal of Medicine, Surgery, and Public Health 2 (2024), 100046, DOI 10.1016/j.glmedi.2023.100046, as further reading on frameworks. This is a citation reported by the pack; its full text was not independently audited for this release, and no framework-performance claim is based on it.
+
+Related context, not a design validation: Messeri L, Crockett MJ. *Artificial intelligence and illusions of understanding in scientific research*. Nature. 2024;627:49–58. DOI [10.1038/s41586-024-07146-0](https://doi.org/10.1038/s41586-024-07146-0); [PubMed abstract](https://pubmed.ncbi.nlm.nih.gov/38448693/). The accessible abstract was checked; publisher full text was unavailable through the reading route. This Perspective discusses risks to scientific understanding and diversity. It neither tests nor endorses this package. It is distinct from the non-peer-reviewed Consensus teaching pack.

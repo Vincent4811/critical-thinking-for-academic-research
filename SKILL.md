@@ -1,9 +1,9 @@
 ---
 name: critical-thinking-for-academic-research
-description: Analyze academic research reasoning, coach students through evidence-based revision, or design critical-thinking lessons and classroom activities. Use for research-question clinics, evidence-aware MindMaps, and course activity design; not routine prose polishing or a full manuscript pipeline.
+description: Analyze academic research reasoning, coach students through evidence-based revision, or design critical-thinking lessons and classroom activities, including responsible AI-assisted inquiry. Use for research-question clinics, evidence-aware MindMaps, and course activity design; not routine prose polishing or a full manuscript pipeline.
 license: MIT
 metadata:
-  version: "0.2.1"
+  version: "0.3.0"
   author: "Vincent"
 ---
 
@@ -33,6 +33,12 @@ Read [evidence and MindMap rules](references/evidence-and-maps.md) when handling
 - **U** means an unresolved fact or question. Missing sources remain U; they do not establish a research gap.
 - Without inspected evidence, provide a provisional analysis and a concrete evidence request. Do not invent a citation, a study result, a probability, or the learner's answer.
 - A retracted study may illustrate appraisal, but cannot establish its claimed effect. Distinguish retraction from evidence of a zero effect.
+
+## Keep human judgment visible with AI
+
+When AI-assisted research, prompt framing or learning with AI is part of the request, read [AI judgment](references/ai-judgment.md). Treat AI summaries as discovery leads, trace consequential claims to checked sources, examine contrary evidence and shared datasets, and retain the person's actual revision reason. Retrieval grounding and paper-count meters do not establish validity or certainty.
+
+For formulation/search planning, use [question frameworks](references/question-frameworks.md) when helpful. Do not assume causal words or yes/no questions are inherently biased, force all questions into PICO, or promise neutral wording removes retrieval bias. In coach/learning contexts preserve a first attempt and later explanation without the AI output; in analyze provide supported help now without a mandatory learner exercise. Use AI/source checks at the scale of the request, not as a fixed approval checklist.
 
 ## Run the reasoning loop
 
@@ -66,6 +72,8 @@ In **design-lesson**, deliver observable learning objectives, a time-balanced ag
 
 ## Reach further only when needed
 
+- For AI prompt/source appraisal: [AI judgment](references/ai-judgment.md), [question frameworks](references/question-frameworks.md), and the [worked example](examples/ai-judgment.en.md).
+- For teaching AI judgment: [50-minute lab](teaching/ai-judgment-lab.en.md) and [optional worksheet](templates/ai-research-check.en.md), with Chinese counterparts linked there.
 - For classroom games and teaching transfer: [course activities](references/course-activities.md).
 - For complete course-activity preparation: [lesson-design rules](references/lesson-design.md), [120-minute lesson](teaching/lesson-120.en.md), [activity cards](teaching/activity-cards.en.md), and [lesson template](templates/lesson-plan.en.md), with Chinese counterparts linked there.
 - For a worked historical appraisal: [serving bowls](examples/serving-bowl.en.md).

@@ -37,6 +37,10 @@ Give enough information to support the intended inference. Separate simulated da
 
 Preserve conceptual alternatives: a classroom game's equilibrium assumptions are not proof about real people, and a cooperation choice is not a moral or personality diagnosis. The Prisoner's Dilemma protocol in the cards is a **new extension**; only its conceptual connection appeared in the supplied course summary. Never imply the original slides included the new payoff matrix.
 
+## When the lesson involves AI research tools
+
+Use [the AI judgment lab](../teaching/ai-judgment-lab.en.md) for prompt comparison, passage-level checking, interpretation of a body of evidence, explanation with AI set aside, and an actual decision log. Its offline packets are explicitly fictional. An explanation may be spoken, written, drawn or appropriately supported; assess source alignment and limits, not fluency. The 15-minute option replaces the existing lab and preserves the total; do not add it on top of an already full schedule.
+
 ## Assess and close
 
 Compare the learner's initial and final explanations using [the existing four-dimension rubric](../evals/rubric.md), with a reason for each judgment. Retention can be good reasoning; a changed answer alone is not improvement. Do not claim a validated ability score or learning gain from these worksheets.
