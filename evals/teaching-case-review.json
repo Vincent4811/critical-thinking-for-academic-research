@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-20",
+  "generator": "one fresh-context independent subagent; exact model/build and sampling settings not exposed",
+  "judge": "package-author agent, unblinded, after inspecting actual responses and requirements",
+  "design": "B13–B16 processed in one trial context; expectations, rubric and other results withheld from the generator",
+  "cases": [
+    {"id":"B13","verdict":"pass","evidence":"7位研究生分三人組及兩個二人組","reason":"Complete teacher-facing 120-minute schedule with workable seven-person grouping, rules/materials, individual reasoning, evidence-linked peer clinic, learner revision and exit output; missing literature handled by an explicitly fictional case."},
+    {"id":"B14","verdict":"pass","evidence":"50分鐘安排：0–5個人寫研究題、初判、理由","reason":"States defaults and completes an exact 50-minute design without an intake interview, with rules, materials, artifacts and assessment boundaries."},
+    {"id":"B15","verdict":"pass","evidence":"合計45。原要求18分鐘診間縮成每人6分鐘","reason":"Acknowledges overfull request and provides a feasible 45-minute primary plan with explanation of removed/shortened activities; longer alternative is clearly separate."},
+    {"id":"B16","verdict":"pass","evidence":"以下是本套技能新增延伸，並非原教材原有內容","reason":"Supplies a complete payoff matrix and 15-minute sequence, rejects moral/ability inference from D choices or cooperation score, preserves reasoning-based assessment, and does not guarantee cooperation."}
+  ],
+  "limitations": ["One qualitative trial, no repeated sampling or control condition", "Author judge was not blinded", "Cases shared one context", "No actual class or learning-gain evaluation"]
+}

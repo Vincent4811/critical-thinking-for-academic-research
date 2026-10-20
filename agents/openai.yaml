@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Research Thinking"
+  short_description: "Research reasoning, student coaching, and lesson design"
+  default_prompt: "Use $academic-research-thinking to examine this research question, its evidence, and the next discriminating check."

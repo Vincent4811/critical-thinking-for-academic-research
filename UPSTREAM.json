@@ -1,0 +1,54 @@
+{
+  "repository": "https://github.com/tjboudreaux/cc-thinking-skills",
+  "commit": "7b8fece345dfaa11773be7152ccd194589cb5437",
+  "retrieved": "2026-10-20",
+  "license": "MIT",
+  "license_sha256": "41f47abf7be896c870173738e108e902b49497807a2c8b040c8144bf7128f01c",
+  "files": [
+    {
+      "path": "skills/thinking-model-router/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-model-router/SKILL.md",
+      "sha256": "b230ab2d3dd4e44d04b031b1a33b1bca3415500b0ba142ff4bbe1cda27422411"
+    },
+    {
+      "path": "skills/thinking-socratic/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-socratic/SKILL.md",
+      "sha256": "64a510f0b7ad190b2f346571f9fe36fb8b96b53d913cac97b2f7eb094af0b0b8"
+    },
+    {
+      "path": "skills/thinking-first-principles/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-first-principles/SKILL.md",
+      "sha256": "a3fd307e169b420a9eebce847849a6778435fe83cf8e1d130d59e98453e617cb"
+    },
+    {
+      "path": "skills/thinking-map-territory/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-map-territory/SKILL.md",
+      "sha256": "49692f7757be7a869d774dc95c6183fb42aa3d3be2a46080d8fa360fcb34cf49"
+    },
+    {
+      "path": "skills/thinking-scientific-method/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-scientific-method/SKILL.md",
+      "sha256": "fc0440edac8f2fc4787d7fd1daa5d465de1115dac1e8e282741908ccaf28026d"
+    },
+    {
+      "path": "skills/thinking-steel-manning/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-steel-manning/SKILL.md",
+      "sha256": "89c1401a53367897909c15d67d2d222ef9648fb616346af4779ffce81154d5c3"
+    },
+    {
+      "path": "skills/thinking-probabilistic/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-probabilistic/SKILL.md",
+      "sha256": "e597f111923ea19b59ec5a0831c88f678b21141a6c7d258c7fc76eae5bb32ff5"
+    },
+    {
+      "path": "skills/thinking-second-order/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-second-order/SKILL.md",
+      "sha256": "bd1fe2b01aa56b26c189f75824dcb7fad4fc3cf55de56e422dd32fadb3d27a88"
+    },
+    {
+      "path": "skills/thinking-pre-mortem/SKILL.md",
+      "url": "https://raw.githubusercontent.com/tjboudreaux/cc-thinking-skills/7b8fece345dfaa11773be7152ccd194589cb5437/skills/thinking-pre-mortem/SKILL.md",
+      "sha256": "a38aff195dcdb7b4932bbf12fe4e78d1cd69b9412c15b6aa2e9d855560a2d482"
+    }
+  ]
+}

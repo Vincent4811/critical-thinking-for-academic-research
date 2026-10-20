@@ -1,0 +1,118 @@
+{
+  "mermaid": "12.2.0",
+  "count": 14,
+  "results": [
+    {
+      "file": "docs/method.en.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 1320,
+      "height": 86
+    },
+    {
+      "file": "docs/method.zh-TW.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 1320,
+      "height": 108
+    },
+    {
+      "file": "examples/light-response.en.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 883.671875,
+      "height": 662.78125
+    },
+    {
+      "file": "examples/light-response.zh-TW.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 1014.59375,
+      "height": 592.171875
+    },
+    {
+      "file": "examples/nutrition.en.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 948.0625,
+      "height": 662.734375
+    },
+    {
+      "file": "examples/nutrition.zh-TW.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 939.1875,
+      "height": 553.359375
+    },
+    {
+      "file": "examples/serving-bowl.en.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 872.765625,
+      "height": 617.09375
+    },
+    {
+      "file": "examples/serving-bowl.zh-TW.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 1010.734375,
+      "height": 584.09375
+    },
+    {
+      "file": "templates/mindmap.en.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 966.09375,
+      "height": 618.703125
+    },
+    {
+      "file": "templates/mindmap.en.md",
+      "block": 1,
+      "parsed": true,
+      "rendered": true,
+      "width": 880.140625,
+      "height": 248
+    },
+    {
+      "file": "templates/mindmap.en.md",
+      "block": 2,
+      "parsed": true,
+      "rendered": true,
+      "width": 942.984375,
+      "height": 601.546875
+    },
+    {
+      "file": "templates/mindmap.zh-TW.md",
+      "block": 0,
+      "parsed": true,
+      "rendered": true,
+      "width": 977.03125,
+      "height": 541.78125
+    },
+    {
+      "file": "templates/mindmap.zh-TW.md",
+      "block": 1,
+      "parsed": true,
+      "rendered": true,
+      "width": 808,
+      "height": 200
+    },
+    {
+      "file": "templates/mindmap.zh-TW.md",
+      "block": 2,
+      "parsed": true,
+      "rendered": true,
+      "width": 968.359375,
+      "height": 526.109375
+    }
+  ]
+}
