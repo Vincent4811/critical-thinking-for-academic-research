@@ -1,6 +1,8 @@
-# Academic Research Thinking
+# Critical Thinking for Academic Research
 
-[繁體中文](README.zh-TW.md) · Version 0.2.0
+[繁體中文](README.zh-TW.md) · Version 0.2.1
+
+Evidence-aware reasoning, student coaching, and teaching design.
 
 A portable research-reasoning skill built from Vincent's **Critical Thinking for Academic Research** course. It helps researchers refine questions, students make their own evidence-based revisions, and teachers design executable critical-thinking lessons.
 
@@ -15,12 +17,12 @@ Point an Agent Skills-compatible assistant at [SKILL.md](SKILL.md), or copy this
 Examples of requests:
 
 ```text
-Use academic-research-thinking to analyze this question and the supplied paper.
+Use critical-thinking-for-academic-research to analyze this question and the supplied paper.
 Distinguish what the paper reports from what my proposed study assumes.
 ```
 
 ```text
-用 academic-research-thinking 指導學生。先保留他的原始問題與理由，
+用 critical-thinking-for-academic-research 指導學生。先保留他的原始問題與理由，
 每輪只問一個有助判斷的問題，不要先給改寫答案。
 ```
 
@@ -39,7 +41,7 @@ No mode-selection interview is required. An explicit request wins; otherwise inf
 For teacher preparation, `design-lesson` takes precedence over live `coach`. It can prepare the full set of teacher prompts at once; the one-question-per-turn rule applies when actually coaching a learner.
 
 ```text
-用 academic-research-thinking 設計 120 分鐘 Critical thinking 課程活動，
+用 critical-thinking-for-academic-research 設計 120 分鐘 Critical thinking 課程活動，
 包含可操作規則、個人思考、同儕挑戰、研究問題圖、修訂與 exit ticket。
 ```
 

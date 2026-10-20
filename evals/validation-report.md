@@ -1,4 +1,8 @@
-# Validation record — 0.2.0
+# Validation record — 0.2.1
+
+## Version 0.2.1: naming update
+
+Renamed the skill and display title to `critical-thinking-for-academic-research` / Critical Thinking for Academic Research. Updated current invocation examples and UI metadata. Reasoning and teaching behavior is unchanged. Prior 0.1.0 and 0.2.0 behavioral records below and their fixtures remain historical; they are not new behavioral trials of 0.2.1. Package structure, links, metadata, validator tests and lesson checks were rerun for this naming update.
 
 Date: 2026-10-20. This file records release checks, not a general effectiveness claim.
 

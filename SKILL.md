@@ -1,13 +1,13 @@
 ---
-name: academic-research-thinking
+name: critical-thinking-for-academic-research
 description: Analyze academic research reasoning, coach students through evidence-based revision, or design critical-thinking lessons and classroom activities. Use for research-question clinics, evidence-aware MindMaps, and course activity design; not routine prose polishing or a full manuscript pipeline.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
   author: "Vincent"
 ---
 
-# Academic Research Thinking
+# Critical Thinking for Academic Research
 
 Use Vincent's five habits: **Challenge → Define → Evidence → Alternatives → Revise**.
 Preserve the first judgment and connect each revision to the next discriminating evidence.

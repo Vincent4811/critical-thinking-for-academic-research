@@ -1,4 +1,4 @@
 interface:
-  display_name: "Academic Research Thinking"
-  short_description: "Research reasoning, student coaching, and lesson design"
-  default_prompt: "Use $academic-research-thinking to examine this research question, its evidence, and the next discriminating check."
+  display_name: "Critical Thinking for Academic Research"
+  short_description: "Evidence-aware reasoning, student coaching, and teaching design"
+  default_prompt: "Use $critical-thinking-for-academic-research to examine this research question, its evidence, and the next discriminating check."

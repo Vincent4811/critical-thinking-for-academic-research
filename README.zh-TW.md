@@ -1,6 +1,8 @@
-# Academic Research Thinking
+# Critical Thinking for Academic Research
 
-[English](README.md) · 版本 0.2.0
+[English](README.md) · 版本 0.2.1
+
+Evidence-aware reasoning, student coaching, and teaching design.
 
 這套可攜式研究思考 Skill，以 Vincent 的 **Critical Thinking for Academic Research** 課程為核心，協助個人研究分析、學生指導與可操作的 Critical thinking 課程活動設計。
 
@@ -13,12 +15,12 @@
 讓支援 Agent Skills 的助理讀取 [SKILL.md](SKILL.md)，或將整個資料夾放入該工具支援的技能位置。保留 references 與 templates 的相對位置，不要只複製入口檔。
 
 ```text
-用 academic-research-thinking 分析這個研究問題與我提供的論文。
+用 critical-thinking-for-academic-research 分析這個研究問題與我提供的論文。
 區分論文實際報告、我的假設、尚未確認的未知，提出下一項有判別力的證據。
 ```
 
 ```text
-用 academic-research-thinking 指導學生。先保留他的原始問題與理由，
+用 critical-thinking-for-academic-research 指導學生。先保留他的原始問題與理由，
 每輪只問一個關鍵問題，最後由學生決定是否修訂。
 ```
 
@@ -37,7 +39,7 @@
 教師備課優先使用 `design-lesson`，不是現場 `coach`；可一次備妥整組教師提示，一次一問的限制只適用於實際學生對話。
 
 ```text
-用 academic-research-thinking 設計 120 分鐘 Critical thinking 課程活動，
+用 critical-thinking-for-academic-research 設計 120 分鐘 Critical thinking 課程活動，
 包含可操作規則、個人思考、同儕挑戰、研究問題圖、修訂與 exit ticket。
 ```
 
