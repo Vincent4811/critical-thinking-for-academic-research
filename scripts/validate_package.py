@@ -47,10 +47,12 @@ def inspect(root: Path) -> tuple[list[str], dict[str, int]]:
                 errors.append(f'Missing language pair: {prefix}.{lang}.md')
 
     # Windows shell metadata is ignored by .gitignore and by the release archive.
-    files = [p for p in root.rglob('*') if p.is_file() and p.name.lower() != 'desktop.ini']
+    files = [p for p in root.rglob('*') if p.is_file() and p.name.lower() != 'desktop.ini' and '.git' not in p.relative_to(root).parts]
     diagrams = 0
     links = 0
     for item in root.rglob('*'):
+        if '.git' in item.relative_to(root).parts:
+            continue
         if item.is_symlink():
             errors.append(f'Symlink is not a self-contained release asset: {item.relative_to(root)}')
     for path in files:
